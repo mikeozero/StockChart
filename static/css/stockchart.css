@@ -1,0 +1,96 @@
+/*header*/
+.mainheader {
+    height: 12%;
+    width: 100%;
+    align-items: center;
+}
+#headerbody {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: end;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#logo {
+    height: 100%;
+    width: 10%;
+}
+#functions {
+    height: 100%;
+    width: 88%;
+}
+a img {
+    width: 150px;
+    margin-left: 5%;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+#signup {
+    float: right;
+    margin-right: 1%;
+    color: #eea236;
+}
+/* stockchart */
+#title{
+	position: absolute;
+	width: 74%;
+	height: 8%;
+	top: 5.3%;
+	left: 13%;
+	color: steelblue;
+	font-size: 2.5rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+#filters {
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    height: 3%;
+}
+.tab {
+    color: steelblue;
+    font-weight: bold;
+}
+table {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 12px;
+    border-bottom-color: #2e6da4;
+    border-bottom-style: solid;
+}
+.smt {
+    background-color: steelblue;
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+/*    vertical-align: middle;*/
+    font-size: 12px;
+    font-weight: bolder;
+/*    text-shadow: 1px 1px gray;*/
+    color: white;
+    border: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+#stockchart {
+    position: absolute;
+    top: 18%;
+    width: 90%;
+    left: 5%;
+    height: 80%;
+}
+#message {
+    width: 20%;
+    margin: 5% auto;
+    font-size: large;
+    color: #1d3277;
+}

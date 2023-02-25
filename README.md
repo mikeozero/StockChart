@@ -1,2 +1,2 @@
 # StockChart
-Interactive Visualization of Stocks Information
+A Interactive Visualization of Stocks Information

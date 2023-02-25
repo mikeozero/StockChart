@@ -1,0 +1,56 @@
+.mainheader {
+    height: 12%;
+    width: 100%;
+    align-items: center;
+}
+#headerbody {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: end;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#logo {
+    height: 100%;
+    width: 10%;
+}
+#functions {
+    height: 100%;
+    width: 88%;
+}
+a img {
+    width: 150px;
+    margin-left: 5%;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+#signup {
+    float: right;
+    margin-right: 1%;
+    color: #eea236;
+}
+#mainbody img{
+    position: absolute;
+    top: 12%;
+    width: 88%;
+    height: 65%;
+    left: 8%;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 95%;
+    background-color: #1E3274;
+}
+#footer img {
+    position: absolute;
+    width: 18%;
+    height: 100%;
+    bottom: 1%;
+    left: 1%;
+}
